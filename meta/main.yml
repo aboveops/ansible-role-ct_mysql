@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  author: Valentin Gostev
+  description: Ansible role deploys MySQL container
+  role_name: ct_mysql
+  license: MIT
+  min_ansible_version: 2.8
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+  galaxy_tags:
+    - mysql
+    - database
+    - databases
+    - rdbms
+allow_duplicates: false
+dependencies: []
+...
